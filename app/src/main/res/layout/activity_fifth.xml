@@ -5,30 +5,30 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity">
+        tools:context=".FifthActivity">
 
     <TextView
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:text="1"
-            android:id="@+id/text1"
+            android:text="5"
+            android:id="@+id/text5"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             android:layout_marginBottom="8dp"
-            app:layout_constraintBottom_toTopOf="@+id/button1"
+            app:layout_constraintBottom_toTopOf="@+id/button5"
             android:textSize="72sp"
             android:textAlignment="center"/>
 
     <Button
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:text="+"
+            android:text="Back to main page"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            android:id="@+id/button1"
-            android:textSize="72sp"/>
+            android:id="@+id/button5"
+            android:textSize="30sp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

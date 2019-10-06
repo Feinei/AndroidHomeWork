@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">HomeWork</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="pass_error">Wrong password</string>
+    <string name="new_pass">Your new password</string>
 </resources>

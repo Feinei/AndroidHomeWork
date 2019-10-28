@@ -18,6 +18,7 @@ class SendingActivity : AppCompatActivity() {
         setContentView(R.layout.activity_sending)
 
         btn_send_intent.setOnClickListener {
+
             val searchIntent = Intent().apply {
                 action = Intent.ACTION_GET_CONTENT
                 type = "file/*"

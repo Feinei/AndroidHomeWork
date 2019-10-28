@@ -2,14 +2,16 @@ package com.example.homework
 
 import android.app.Activity
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_sending.*
 
 class SendingActivity : AppCompatActivity() {
 
-    private val PICKFILE_RESULT_CODE = 0
+    companion object {
+        private const val PICKFILE_RESULT_CODE = 0
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

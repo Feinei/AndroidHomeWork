@@ -12,8 +12,8 @@ class AboutActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_about)
 
-        val name = intent?.extras?.getString(KEY_NAME) ?: "Unknown"
-        val friendType = intent?.extras?.getString(KEY_FRIEND_TYPE) ?: "Unknown"
+        val name = intent?.extras?.getString(KEY_NAME) ?: DEFAULT_STRING
+        val friendType = intent?.extras?.getString(KEY_FRIEND_TYPE) ?: DEFAULT_STRING
         tv_name.text = name
         tv_friend_type.text = friendType
     }
@@ -21,6 +21,7 @@ class AboutActivity : AppCompatActivity() {
     companion object {
         private const val KEY_NAME = "friendName"
         private const val KEY_FRIEND_TYPE = "friendType"
+        private const val DEFAULT_STRING = "Unknown"
 
         fun createIntent(activity: Activity, friend: Friend) =
             Intent(activity, AboutActivity::class.java).apply {

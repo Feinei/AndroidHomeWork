@@ -6,21 +6,13 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
-    private var adapter: FriendAdapter? = null
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        adapter = FriendAdapter(getDataSource()) { friend ->
-            navigateToAbout(friend)
+        rv_friends.adapter = FriendAdapter(getDataSource()) {
+            startActivity(AboutActivity.createIntent(this, it))
         }
-
-        rv_friends.adapter = adapter
-    }
-
-    private fun navigateToAbout(friend: Friend) {
-        startActivity(AboutActivity.createIntent(this, friend))
     }
 
     private fun getDataSource(): List<Friend> = listOf(

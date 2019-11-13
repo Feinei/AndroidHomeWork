@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">HomeWork</string>
+    <string name="name_hint">Type your name</string>
+    <string name="age_hint">Type your age</string>
+    <string name="standing_hint">Type your skate standing</string>
+    <string name="btn_text_join">Join!</string>
+    <string name="name">Name:</string>
+    <string name="age">Age:</string>
+    <string name="skate_standing">Skate standing</string>
+    <string name="btn_text_toJoinFragment">Become one of us!</string>
+    <string name="title_rollerFragment">Roller Fragment</string>
+    <string name="title_skateFragment">Skate Fragment</string>
+    <string name="title_sneakerFragment">Sneaker Fragment</string>
+    <string name="title_member">Member</string>
+    <string name="title_skate">Skate</string>
+    <string name="title_roller">Roller</string>
+    <string name="title_sneaker">Sneaker</string>
 </resources>

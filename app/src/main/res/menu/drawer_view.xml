@@ -4,15 +4,15 @@
     <group android:checkableBehavior="single">
         <item
                 android:id="@+id/nav_member_fragment"
-                android:title="Member"/>
+                android:title="@string/title_member"/>
         <item
                 android:id="@+id/nav_skate_fragment"
-                android:title="Skate"/>
+                android:title="@string/title_skate"/>
         <item
                 android:id="@+id/nav_roller_fragment"
-                android:title="Roller"/>
+                android:title="@string/title_roller"/>
         <item
                 android:id="@+id/nav_sneaker_fragment"
-                android:title="Sneaker"/>
+                android:title="@string/title_sneaker"/>
     </group>
 </menu>

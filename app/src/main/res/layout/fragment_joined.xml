@@ -17,7 +17,6 @@
 
     <TextView
             android:id="@+id/tv_name"
-            android:text=""
             android:textSize="16sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -37,7 +36,6 @@
 
     <TextView
             android:id="@+id/tv_age"
-            android:text=""
             android:textSize="16sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -57,7 +55,6 @@
 
     <TextView
             android:id="@+id/tv_standing"
-            android:text=""
             android:textSize="16sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

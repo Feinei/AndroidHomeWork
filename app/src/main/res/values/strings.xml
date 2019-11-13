@@ -11,4 +11,8 @@
     <string name="title_rollerFragment">Roller Fragment</string>
     <string name="title_skateFragment">Skate Fragment</string>
     <string name="title_sneakerFragment">Sneaker Fragment</string>
+    <string name="title_member">Member</string>
+    <string name="title_skate">Skate</string>
+    <string name="title_roller">Roller</string>
+    <string name="title_sneaker">Sneaker</string>
 </resources>

@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentManager
 import com.google.android.material.navigation.NavigationView
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.fragment_join.*
@@ -62,10 +63,7 @@ class MainActivity : AppCompatActivity(),
             super.onBackPressed()
 
             supportFragmentManager.also {
-                it.beginTransaction().apply {
-                    replace(R.id.flContent, MemberFragment.newInstance())
-                    commit()
-                }
+                it.popBackStack(JoinFragment::class.java.name, FragmentManager.POP_BACK_STACK_INCLUSIVE)
             }
         }
     }

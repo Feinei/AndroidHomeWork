@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">HomeWork</string>
+    <string name="name">Name</string>
+    <string name="friend_type">Friend Type</string>
+    <string name="position">Position</string>
+    <string name="add">Add</string>
+    <string name="add_friend">Add friend</string>
+    <string name="im_useless">I\'M USELESS !</string>
+    <string name="description">Description</string>
+    <string name="pictures_gallery">Pictures gallery</string>
+    <string name="fiendlist">Fiendlist</string>
+    <string name="useless">Useless</string>
 </resources>

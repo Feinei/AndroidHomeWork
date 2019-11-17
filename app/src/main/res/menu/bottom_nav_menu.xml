@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_first"
+        android:title="@string/useless" />
+
+    <item
+        android:id="@+id/navigation_sec"
+        android:title="@string/fiendlist" />
+
+    <item
+        android:id="@+id/navigation_third"
+        android:title="@string/pictures_gallery" />
+</menu>

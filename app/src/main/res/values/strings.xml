@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">HomeWork</string>
+    <string name="artist">Artist</string>
+    <string name="song">Song</string>
+    <string name="album_name">Album name</string>
+    <string name="next">Next</string>
+    <string name="prev">Prev</string>
+    <string name="play_pause">Play/Pause</string>
+    <string name="iv_cover_description">Cover image</string>
 </resources>
